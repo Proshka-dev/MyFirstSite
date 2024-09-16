@@ -115,6 +115,7 @@ body{
 	background-image: url(../img/top_image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 .header__title {
 	padding-top: 20px;
@@ -181,7 +182,7 @@ body{
 	background-color: #f7f7f7;
 	justify-content: center;
 	align-items: center;
-	gap: 30px;
+	gap: 34px;
 	position: relative;
 	top: -150px;
 
@@ -225,5 +226,66 @@ body{
 	margin-top: 15px;
 
 }
+
+.projects {
+	margin-top: -42px;
+}
+.projects__title {
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 36px;
+	text-transform: uppercase;
+
+}
+.projects__body {
+	display: flex;
+	max-width: 1110px;
+	/* height: 300px; */
+	margin: 0 auto;
+	background-color: #f7f7f7;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	position: relative;
+	margin-top: 58px;
+
+}
+.projects__item {
+	display: flex;
+	width: 350px;
+	height: 600px;
+	flex-direction: column;
+
+}
+.projects__proj_pic {
+	max-width: 350px;
+	max-height: 380px;
+}
+.projects__proj_divider {
+	width: 55px;
+	height: 6px;
+	background-color: var(--accent-color);
+	margin-top: 45px;
+
+}
+.projects__proj_title {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--dark-color);
+	margin-top: 28px;
+
+}
+.projects__proj_descr {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #999999;
+	margin-top: 19px;
+
+}
+
 
 
