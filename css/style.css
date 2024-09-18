@@ -67,9 +67,11 @@ body{
 }
 
 .container {
-	max-width: 1110px;
+	Ширина контента 1110 + добавляем 50 на защитные отступы
+	max-width: 1160px;
 	/* background-color: #ddd; */
 	margin: 0 auto;
+	padding: 0px 25px 0px;
 }
 
 :root {
@@ -240,7 +242,7 @@ body{
 }
 .projects__body {
 	display: flex;
-	max-width: 1110px;
+	max-width: 100%;
 	/* height: 300px; */
 	margin: 0 auto;
 	background-color: #f7f7f7;
@@ -253,15 +255,23 @@ body{
 }
 .projects__item {
 	display: flex;
-	width: 350px;
-	height: 600px;
+	/* width: 350px; */
+	/* height: 600px; */
 	flex-direction: column;
+	width: 33.333%;
 
 }
 .projects__proj_pic {
-	max-width: 350px;
-	max-height: 380px;
+	/* max-width: 350px; */
+	/* max-height: 380px; */
+	/* width:      100%; */
 }
+
+.projects__proj_pic img{
+	width: 100%;
+
+}
+
 .projects__proj_divider {
 	width: 55px;
 	height: 6px;
@@ -613,6 +623,7 @@ body{
 	text-align: center;
 	font-size: 24px;
 	margin-top: 25px;
+	color: var(--gray-color);
 }
 .contacts__text2 {
 	font-family: "Oswald", sans-serif;
@@ -622,6 +633,11 @@ body{
 	text-align: center;
 	margin-top: 27px;
 }
+
+.contacts__text2 span {
+	color: var(--accent-color);
+}
+
 .footer {
 	background-color: var(--dark-color);
 	margin-top: 170px;
@@ -645,8 +661,3 @@ body{
 	font-size: 16px;
 	color: white;
 }
-
-
-
-
-
